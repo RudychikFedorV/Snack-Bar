@@ -1,3 +1,26 @@
-<p>header works!</p>
-<a routerLink="/">Home</a>
-<a routerLink="profile">Profile</a>
+<!-- <a routerLink="/">Home</a> -->
+<!-- <a routerLink="profile">Deals</a> -->
+
+<header class="header">
+    <div class="container">
+        <a routerLink="/" class="header__logo">
+            <img src="assets/header/logo.svg" alt="logo">
+        </a>
+        <div class="header__search">
+            <input type="search" placeholder="Search">
+            <span class="material-icons">search</span>
+        </div>
+        <div class="header__menu">
+            <a class="header-menu__a" routerLink="/">Home</a>
+            <a class="header-menu__a" routerLink="profile">Restaurants</a>
+            <a class="header-menu__a" routerLink="profile">Deals</a>
+            <a class="header-menu__a" routerLink="profile">MyOrders</a>
+        </div>
+        <div class="header-menu__cart">
+            <img src="assets/restaurants/cart.svg" alt="Cart">
+        </div>
+        <div class="header__img">
+            <img src="assets/header/foto.png" alt="Foto">
+        </div>
+    </div>
+</header>

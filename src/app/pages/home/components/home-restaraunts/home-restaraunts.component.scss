@@ -1,0 +1,41 @@
+.restaurants {
+    margin-bottom: 121px;
+    
+  .container {
+    max-width: calc(1110px + 40px);
+    margin-inline: auto;
+  }
+  &__title {
+    color: #2b2b43;
+
+    /* H5 - semibold 20 (28, 0.1px) */
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    margin-bottom: 16px;
+  }
+  &__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+  }
+  &__name {
+    color: #2b2b43;
+
+    /* H6 - bold 18 (24, 0.1px) */
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+  }
+  .tim {
+    color: var(--neutral-gray-dark, #545563);
+
+    /* Small 2 - semibold 12 (16, 0px) */
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px; 
+  }
+
+}
